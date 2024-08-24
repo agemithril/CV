@@ -1,1 +1,1 @@
-#Este proyecto es un currículum web diseñado para presentar mi perfil profesional, habilidades y experiencia en desarrollo web y control de calidad. La página está construida utilizando tecnologías como HTML, CSS, y PHP. 
+#Este proyecto es un currículum web diseñado para presentar mi perfil profesional, habilidades en desarrollo web y control de calidad. La página está construida utilizando tecnologías como HTML, CSS, y PHP. 
