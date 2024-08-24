@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uriel F. J. </title>
+    <link rel="shortcut icon" href="images/docu.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="#" class="navbar-brand">Portafolio</a>
+
+    </nav>
+    <header>
+        <section class="texts-header">
+            <h1>Uriel Franco Jaime</h1>
+            <h1>Developer / Tester</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="container-abaut">
+            <h2 class="title">Sobre mi</h2>
+            <div class="image-container">
+                <div class="container-abaut-me">
+                    <img src="images/yo.png" alt="Uriel" class="personal-picture">
+                    <div class="container-texts">
+                        <p>Me considero una persona capaz de afrontar cualquier reto gracias a mi motivación y
+                            adaptabilidad, comprendo lo que es trabajar en equipo bajo presión y he salido adelante en
+                            esas situaciones manteniendo abiertas las líneas de comunicación en conjunto a
+                            investigaciones profundas sobre la problemática.</p>
+                        <h3><samp>1</samp>Objetivos profesionales</h3>
+                        <p>Busco oportunidades que me permitan obtener mas experiencia práctica y desarrollar habilidades
+                            específicas dentro de mi campo de estudio. Busco oportunidades para aplicar mi creatividad 
+                            ya sea a través de proyectos, investigación o desarrollo
+                            de productos/servicios.</p>
+                        <h3><samp>2</samp>Habilidades interpersonales</h3>
+                        <p>Comunicación: Priorizo la comunicación clara y efectiva, asegurándome de poder transmitir
+                            ideas e información de manera eficiente, tanto verbalmente como por escrito.</p>
+                        <p>Trabajo en equipo: Valoro la colaboración y contribuyo activamente a los esfuerzos grupales,
+                            reconociendo la importancia de trabajar de manera cohesiva con colegas para alcanzar
+                            objetivos compartidos.</p>
+                        <p>Escucha activa: Me aseguro de escuchar atentamente a los demás, garantizando que comprendo
+                            sus perspectivas, preocupaciones y comentarios antes de responder o tomar decisiones.</p>
+                        <p>Adaptabilidad: Soy flexible y abierto al cambio, adaptándome fácilmente a nuevas situaciones,
+                            desafíos o dinámicas de equipo según sea necesario.</p>
+                        <h3><samp>3</samp>Formación</h3>
+                        <p>En proceso de titulación en Ingeniería en Desarrollo de Software, cuento con experiencia en 
+                            el diseño y configuración de páginas web utilizando JavaScript, CSS, y PHP, así como en el 
+                            diseño e implementación de bases de datos. A través de mi proyecto terminal, he tenido la 
+                            oportunidad de interactuar con empresas para discutir sus necesidades y participar en la 
+                            selección de tecnologías para el desarrollo. También poseo conocimientos en metodologías de 
+                            desarrollo como SCRUM y en la planificación de casos de prueba, creación de matrices y elaboración 
+                            de informes de resultados de pruebas unitarias.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download">
+            <div class="dowunload-pdf">
+                <a href="PDF/Uriel_Franco_Jaime.pdf" download="Uriel_Franco_Jaime.pdf">
+                    <button>Descargar CV</button>
+                </a>
+                <a href="PDF/CONSTANCIA DE CRÉDITOS.pdf" download="Constancia.pdf">
+                    <button>CONSTANCIA DE CRÉDITOS</button>
+                </a>
+            </div>
+        </section>
+        <section class="container personal-projects">
+            <h2 class="projects">Certificados</h2>
+            <div class="container">
+
+                <div class="gallery-port" onclick="openPdf('PDF/certificateTE.pdf')">
+                    <img src="images/cte.jpg" alt="">
+                    <div class="hover-gallery">
+                        <img src="images/cer.png" alt="">
+                        <p>ORACLE ACADEMY</p>
+                    </div>
+                </div>
+                <div class="gallery-port" onclick="openPdf('PDF/certificateIA.pdf')">
+                    <img src="images/cia.jpg" alt="">
+                    <div class="hover-gallery">
+                        <img src="images/cer.png" alt="">
+                        <p>ORACLE ACADEMY</p>
+                    </div>
+                </div>
+                <div class="gallery-port" onclick="openPdf('PDF/certificateAPEX.pdf')">
+                    <img src="images/capex.jpg" alt="">
+                    <div class="hover-gallery">
+                        <img src="images/cer.png" alt="">
+                        <p>ORACLE ACADEMY</p>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function openPdf(pdfPath) {
+                    window.open(pdfPath, '_blank');
+                }
+            </script>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wave2" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
+                preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+        <div class="container-footer">
+            <div class="content-foot">
+                <img src="images/cel.png" alt="">
+                <h4>Telefono</h4>
+                <p>5615920965</p>
+            </div>
+            <div class="content-foot">
+                <img src="images/email.png" alt="">
+                <h4>Email</h4>
+                <p>uworklife@gmail.com</p>
+            </div>
+        </div>
+        <h2 class="final">Agemithril ~ Uriel Franco</h2>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
