@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido</title>
+    <link rel="shortcut icon" href="images/comment.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a href="index.html" class="navbar-brand">Inicio</a>
+
+        </nav>
+        
+
+        <section class="texts-header">
+            <h1>Bienvenido</h1>
+            <h1>¿Interesado en cómo funciona?</h1>
+            <h1>Consulta el código fuente en mi repositorio de GitHub</h1>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main class="container-main">
+        <div class="container-icon">
+            <a href="https://github.com/agemithril" target="_blank">
+                <img src="images/github.png" alt="GitHub" class="git-icon">
+            </a>
+        </div>
+        
+        <section class="container-projects">
+            <h2 class="proyectos">Proyectos</h2>
+            <div class="container">
+
+                <div class="container" id="project1">
+                    <h3 class="proyectos">Gestor de tareas</h3>
+                    <div class="gallery-port">
+                        <img src="images/bd.png" alt="">
+                        <div class="hover-gallery">
+                            <img src="images/checklist.png" alt="">
+                            <p>CRUD + AJAX</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container" id="project2">
+
+                    <h3 class="proyectos">Inicio de sesión</h3>
+                    <div class="gallery-port">
+                        <img src="images/candado.png" alt="">
+                        <div class="hover-gallery">
+                            <img src="images/checklist.png" alt="">
+                            <p>Singleton + reCAPTCHA</p>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="wave2" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150"
+                preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+        <div class="container-footer">
+            <div class="content-foot">
+                <img src="images/cel.png" alt="">
+                <h4>Telefono</h4>
+                <p>5615920965</p>
+            </div>
+            <div class="content-foot">
+                <img src="images/email.png" alt="">
+                <h4>Email</h4>
+                <p>uworklife@gmail.com</p>
+            </div>
+        </div>
+        <h2 class="final">Agemithril ~ Uriel Franco</h2>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        
+    <script>
+    document.getElementById("project1").addEventListener("click", function () {
+
+        window.open("tasks.html", "_blank");
+    });
+</script>
+<script>
+    document.getElementById("project2").addEventListener("click", function () {
+
+        window.open("login/index.html", "_blank");
+    });
+</script>
+</body>
+
+</html>
