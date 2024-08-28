@@ -228,9 +228,9 @@ button {
     cursor: pointer;
     background: #373B44;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsl(217, 89%, 61%), hsla(222, 11%, 24%, 0.342)), url(../images/front2.jpg);
+    background: -webkit-linear-gradient(to right, hsl(217, 32%, 53%), hsla(222, 11%, 24%, 0.342)), url(../images/front2.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsl(217, 89%, 61%), hsla(222, 11%, 24%, 0.342)), url(../images/front2.jpg);
+    background: linear-gradient(to right, hsl(217, 32%, 53%), hsla(222, 11%, 24%, 0.342)), url(../images/front2.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
